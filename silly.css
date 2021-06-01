@@ -1,0 +1,32 @@
+form {
+    border: 1px solid lightgray;
+    margin-top: 5%;
+    padding: 8%;
+    box-shadow: 0 0.8em 0.8em 0.4em lightgray;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.fa, .fas {
+    font-size: 2rem;
+    margin-top: 1%;
+    color: #c0d6df;
+}
+
+#submit {
+    border-radius: 20px;
+    width: 100px;
+    border: 1px solid lightgray;
+}
+
+#submit:hover {
+    background-color: #00b2ca;
+    box-shadow: 0 0.8em 0.8em -0.4em lightgray;
+    transform: translateY(-0.15em);
+}
+
+#forgotPW {
+    text-decoration: underline;
+    color: #00b2ca;
+    cursor: pointer;
+}
